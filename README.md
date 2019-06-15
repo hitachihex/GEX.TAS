@@ -9,16 +9,16 @@ Hotkeys aren't configurable atm (sorry about that, I just get lazy and am used t
 
 Hotkeys are basic:
 
-F1 - To pause\start framestep
-Numpad 9 - Unpause (the same key can't be used to unpause because of how the game loop is hooked and the API function used to check for keys)
-F4 - Start playback, read from Gex.rec, in the directory where the game executable is located.
-F5 - Toggles showing the ingame OSD.
-F6 - Forcefully brings you back to the games main menu.
-] - To step one frame (this also reloads the input file so you can make changes to the inputs while framestepping.)
+F1 - To pause\start framestep <br />
+Numpad 9 - Unpause (the same key can't be used to unpause because of how the game loop is hooked and the API function used to check for keys) <br />
+F4 - Start playback, read from Gex.rec, in the directory where the game executable is located. <br />
+F5 - Toggles showing the ingame OSD. <br />
+F6 - Forcefully brings you back to the games main menu. <br />
+] - To step one frame (this also reloads the input file so you can make changes to the inputs while framestepping.) <br />
 
-Numpad Plus (+) key - Decrease game speed
-Numpad Minus (-) key - Increase game speed
-Numpad Divide (/) key - Sets game speed to normal.
+Numpad Plus (+) key - Decrease game speed <br />
+Numpad Minus (-) key - Increase game speed <br />
+Numpad Divide (/) key - Sets game speed to normal. <br />
 
 Note: First frame of input file must be an empty action (so just pad the first line with 1 or however many empty frames you want.)
 --------------------------------------------------------
@@ -38,5 +38,7 @@ Accepted commands are: <br />
     Scene - (can be used to forcefully load a stage, so do Scene, num) <br /> 
     XPos, num - (for teleporting on the x axis, testing purposes) <br />
     YPos, num - (for teleporting on the y axis, testing purposes) <br />
-    Runto - to be placed under a line that has commands to be fast forwarded to so you can reset playback and continue stepping if you need to change something.
+    Runto - to be placed *UNDER* a line that has commands to be fast forwarded to so you can reset playback and continue stepping if you need to change something. <br />
+    
+    
     
