@@ -25,7 +25,7 @@ Note: First frame of input file must be an empty action (so just pad the first l
 Commands read from input file are in the format of:
    frames, Action
    
-(Commands are case insensitive.)
+(Commands are case insensitive.) <br />
 Accepted commands are: <br />
     Left <br />
     Right <br />
